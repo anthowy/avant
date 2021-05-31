@@ -1,0 +1,12 @@
+<footer class="footer bg-green-500  ">
+        <div class="flex flex-wrap text-white justify-center space-x-5">
+            {{ range.Site.Menus.footer }}
+            <div class="">
+                <a href="{{ .URL }}" class="">{{ .Name }}</a>
+            </div>
+            {{ end }}
+        </div>
+    <div class="flex flex-wrap text-white m-auto items-center justify-center ">
+        Avant conseils - 2021
+</div>
+</footer>

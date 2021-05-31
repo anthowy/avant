@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<div class="flex flex-col m-auto w-8/12 ">
+    <div class=" mb-10">
+      <h2 class=" text-green-600 font-black text-4xl mt-5 mb-5 ">{{ .Title }}</h2>
+
+        <div class=" flex items-center ">
+          {{ with .Site.Params.authorImage }}
+          <div class="mr-1">
+            <img src="{{ . }}" class="author-image">
+          </div>
+          {{ end }}
+          <div class="flex flex-col mr-10">
+            {{ .Site.Params.Author }}
+            <div class="flex">           <time>{{ .PublishDate.Format "02/01/2006" }}</time> | 
+                {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }} 
+              </div>
+ 
+          </div>
+          <div class="flex space-x-2">
+            {{ range $idx, $category := .Params.categories }}
+            {{- if ne $idx 0 }} {{ end }}<button class="  font-bold  text-blue-500 border p-1 rounded "><a href="{{ "categories/" | relURL }}{{ $category | urlize }}" >{{ $category }}</a></button>
+            {{- end }}
+          </div>
+      
+      </div>
+    </div>
+    {{ with .Params.images }}
+    
+    <figure class="title-image  ">
+      <img src="{{ index . 0 }}" alt="">
+    </figure>
+  {{ end }}
+      <div class="content">
+        {{ .Content }}
+    </div>
+    
+  </div>
+  
+  {{ end }}
+  

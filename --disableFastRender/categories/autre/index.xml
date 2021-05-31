@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>autre on Avant-conseils</title>
+    <link>http://localhost:1313/categories/autre/</link>
+    <description>Recent content in autre on Avant-conseils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 29 May 2021 16:35:12 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/autre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bonjour</title>
+      <link>http://localhost:1313/blog/bonjour/</link>
+      <pubDate>Sat, 29 May 2021 16:35:12 +0200</pubDate>
+      
+      <guid>http://localhost:1313/blog/bonjour/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Lacus sed viverra tellus in hac. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Sed tempus urna et pharetra pharetra. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class=" flex w-6/12 mb-5 m-auto flex-wrap">
+{{ .Content }}
+{{ range .Pages }}
+{{ with .Params.images }}
+<figure class="title-image">
+<img src="{{ index . 0 }}" alt="">
+</figure>
+{{ end }}
+<div class="flex flex-col ">
+<h1> <a class="text-green-600 font-black text-lg" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+par {{ .Site.Params.Author }}
+<div class="flex mb-2"> <time>{{ .PublishDate.Format "02/01/2006" }}</time> |
+{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}
+</div>
+<div class="flex space-x-2 mb-5">
+{{ range $idx, $category := .Params.categories }}
+{{- if ne $idx 0 }} {{ end }}<button class=" font-bold text-blue-500 border p-1 rounded "><a href="{{ "categories/" | relURL }}{{ $category | urlize }}" >{{ $category }}</a></button>
+{{- end }}
+</div>
+{{ end }}
+</div>
+</div>
+{{ end }}

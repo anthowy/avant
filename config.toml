@@ -1,0 +1,47 @@
+baseURL = "http://example.org/"
+languageCode = "fr"
+name = "Avant Conseils"
+title = "Avant-conseils"
+description = "My site description"
+theme = "avant"
+googleAnalytics = "UA-123-45"
+
+[params]
+    author = "Anthony.E"
+    authorImage = "/images/avatar.jpg"
+
+
+[[menu.main]]
+  name = "Sites ecoresponsables"
+  url = "/site-eco"
+  weight = 1
+
+
+[[menu.main]]
+  name = "Accompagnement"
+  url = "/accompagnement"
+  weight = 2
+
+[[menu.main]]
+  name = "solutions"
+  url = "/solutions"
+  weight = 3
+
+[[menu.main]]
+  name = "blog"
+  url = "/blog"
+  weight = 4
+
+  [[menu.main]]
+  name = "contact"
+  url = "/contact"
+  weight = 5
+
+  [[menu.footer]]
+  name = "termes et conditions"
+  url = "/termes"
+
+[[menu.footer]]
+  name = "politique de confidentialité"
+  url = "/politique"
+
