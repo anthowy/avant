@@ -5,8 +5,9 @@ module.exports = {
 
         ...theme('colors'),
  
-        bleu: '#85d7ef',
-    jaune: '#b7cea1',
+        bleu: '#85d7ef',  
+    jaune: '#fdcd33',
+    vert: '#b6d5d0',
  
  
        }),
@@ -15,7 +16,8 @@ module.exports = {
         
      {
     bleu: '#85d7ef',
-    jaune: '#b7cea1',
+    jaune: '#fdcd33 ',
+    vert: '#b6d5d0',
    
   },
       }

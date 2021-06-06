@@ -1,10 +1,82 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="fr"><head>
+	<meta name="generator" content="Hugo 0.82.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Avant-conseils</title>
+    <meta name="description" content="page d&#39;accueil ">
+    <link rel="canonical" href="http://example.org/" />
+    <meta property="og:title" content="Avant conseils, L&#39;agence digitale,liégeoise et écoresponsable qui vous accompagne dans votre développement numérique" />
+<meta property="og:description" content="page d&#39;accueil" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://example.org/" />
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Avant conseils, L&#39;agence digitale,liégeoise et écoresponsable qui vous accompagne dans votre développement numérique"/>
+<meta name="twitter:description" content="page d&#39;accueil"/>
+
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+
+    
+
+  
+  <link rel="stylesheet" href="http://example.org/css/styles.min.5551bc493fb8e9859d43023eb33d26f7b7d14d6fce2093f4dbbedf7c0a734d93.css" integrity="sha256-VVG8ST+46YWdQwI+sz0m97fRTW/OIJP0277ffApzTZM=">
+
+<link rel="stylesheet" href="../../css/custom.css" />
+
+
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<script src="https://kit.fontawesome.com/b90407cdc0.js" crossorigin="anonymous"></script>
+</head><body>
+        <div class="flex flex-col min-h-screen "><header x-data="{ mobileMenuOpen : false }" class="  bg-white flex flex-wrap flex-row w-full  p-2   justify-between items-center fixed">
+                <a href="/" class="block" title="home">
+                    <h1 class=" hover:bg-opacity-80 text-white p-1 w-max text-lg italic bg-bleu font-bold">Avant-conseils</h1>
+                </a>
+                <button @click="mobileMenuOpen = !mobileMenuOpen" class=" md:hidden ml-40 w-8 h-8 bg-white-200 text-white-600 p-1">
+                    <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                  </button>
+                <nav class class="text-vert" role="navigation">
+              
+
+                <div class="  absolute  md:relative top-16 left-0 md:top-0 z-20 md:flex  flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white   md:bg-transparent p-6 md:p-0bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0"
+                :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}"  @click.away="mobileMenuOpen = false">
+                
+                    
+                    <a href="/site-eco" class=" menu-item mr-5 md:text-vert font-bold hover:bg-vert p-1 hover:text-white ">Sites ecoresponsables</a>
+                    
+                    <a href="/accompagnement" class=" menu-item mr-5 md:text-vert font-bold hover:bg-vert p-1 hover:text-white ">Accompagnement</a>
+                    
+                    <a href="/solutions" class=" menu-item mr-5 md:text-vert font-bold hover:bg-vert p-1 hover:text-white ">solutions</a>
+                    
+                    <a href="/blog" class=" menu-item mr-5 md:text-vert font-bold hover:bg-vert p-1 hover:text-white ">blog</a>
+                    
+                    <a href="/contact" class=" menu-item mr-5 md:text-vert font-bold hover:bg-vert p-1 hover:text-white ">contact</a>
+                    
+                    
+                    </div>
+                    </nav>
+  </header>
+  <main class="flex-grow">
 <section class="section mt-14">
     <div class="w-12/12m m-auto">
         <div class="flex flex-col bg-vert md:flex-row items-center mb-10 md:mb-20 ">
             <img class=" w-12/12 md:w-1/2  md:ml-10" src="../images/accueil1.svg" />
             <h1 class=" w-10/12 bg-vert font-mono text-white font-semibold rounded-lg p-5 md:w-6/12 text-xl text-center md:text-left md:text-3xl md:ml-10">
-                {{ .Title }}
+                Avant conseils, L&#39;agence digitale,liégeoise et écoresponsable qui vous accompagne dans votre développement numérique
             </h1>
         </div>
         <div class=" w-10/12 m-auto">
@@ -157,7 +229,7 @@ Photo de Karolina Grabowska provenant de
     <textarea class="border rounded block w-full focus:border-vert focus:outline-none " name="message"  cols="50"  rows="5">  </textarea>
   </label>
 
-  <!-- your other form fields go here -->
+  
 
   <button class="bg-bleu p-1 font-bold text-lg w-4/12 md:w-2/12 rounded text-white mt-5 hover:opacity-80" type="submit">envoyer</button>
 </form>
@@ -165,4 +237,22 @@ Photo de Karolina Grabowska provenant de
     </div>
 </section>
 </div>
-{{ end }}
+
+        </main><footer class="footer bg-green-500  ">
+        <div class="flex flex-wrap text-white justify-center space-x-5">
+            
+            <div class="">
+                <a href="/politique" class="">politique de confidentialité</a>
+            </div>
+            
+            <div class="">
+                <a href="/termes" class="">termes et conditions</a>
+            </div>
+            
+        </div>
+    <div class="flex flex-wrap text-white m-auto items-center justify-center ">
+        Avant conseils - 2021
+</div>
+</footer></div>
+    </body>
+</html>

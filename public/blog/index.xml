@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Avant-conseils</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blog on Avant-conseils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 29 May 2021 14:23:40 +0200</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>http://example.org/blog/markdown/</link>
+      <pubDate>Sat, 29 May 2021 16:36:01 +0200</pubDate>
+      
+      <guid>http://example.org/blog/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://example.org/blog/hugo/</link>
+      <pubDate>Sat, 29 May 2021 16:35:48 +0200</pubDate>
+      
+      <guid>http://example.org/blog/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Un Site Eco</title>
+      <link>http://example.org/blog/un-site-eco/</link>
+      <pubDate>Sat, 29 May 2021 16:35:31 +0200</pubDate>
+      
+      <guid>http://example.org/blog/un-site-eco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bonjour</title>
+      <link>http://example.org/blog/bonjour/</link>
+      <pubDate>Sat, 29 May 2021 16:35:12 +0200</pubDate>
+      
+      <guid>http://example.org/blog/bonjour/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Lacus sed viverra tellus in hac. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Sed tempus urna et pharetra pharetra. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna.</description>
+    </item>
+    
+    <item>
+      <title>This Post is Full of Lorem Ipsum</title>
+      <link>http://example.org/blog/lorem-ipsum/</link>
+      <pubDate>Sat, 29 May 2021 14:23:40 +0200</pubDate>
+      
+      <guid>http://example.org/blog/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Lacus sed viverra tellus in hac. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Sed tempus urna et pharetra pharetra. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna.</description>
+    </item>
+    
+  </channel>
+</rss>
