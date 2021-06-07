@@ -11,30 +11,20 @@ googleAnalytics = "UA-123-45"
 
 
 [[menu.main]]
-  name = "Sites ecoresponsables"
-  url = "/site-eco"
+  name = "Nos services"
+  url = "#services"
   weight = 1
 
 
 [[menu.main]]
-  name = "Accompagnement"
-  url = "/accompagnement"
+  name = "Nos engagements"
+  url = "#engagement"
   weight = 2
-
-[[menu.main]]
-  name = "solutions"
-  url = "/solutions"
-  weight = 3
-
-[[menu.main]]
-  name = "blog"
-  url = "/blog"
-  weight = 4
 
   [[menu.main]]
   name = "contact"
-  url = "/contact"
-  weight = 5
+  url = "#contact"
+  weight = 3
 
   [[menu.footer]]
   name = "termes et conditions"

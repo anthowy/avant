@@ -49,3 +49,7 @@ h3{
 .text-jaune{
     color:#fdcd33
 }
+input:focus, textarea:focus{
+    border-color:#fdcd33
+    ;
+}
