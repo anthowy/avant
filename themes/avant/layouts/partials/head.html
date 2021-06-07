@@ -9,6 +9,7 @@
     {{ if not (in (string .Site.BaseURL) "localhost") }}
     {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
+    {{ partial "matomo-tracking" . }}
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href='{{ "css/tailwind.css" | relURL }}' rel="stylesheet" />
 <link rel="stylesheet" href="../../css/custom.css" />

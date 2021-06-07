@@ -2,7 +2,7 @@ languageCode = "fr"
 name = "Avant Conseils"
 title = "Avant-conseils"
 description = "My site description"
-theme = "avant"
+theme = ["avant", "matomo"]
 googleAnalytics = "UA-123-45"
 
 [params]
