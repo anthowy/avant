@@ -29,3 +29,18 @@ h3{
     padding-bottom: 2em;
 }
 
+.bg-vert, .menu-item:hover{
+    background-color: #b6d5d0;
+}
+
+.text-vert{
+    color:#b6d5d0;
+}
+
+.text-bleu{
+    color:#85d7ef
+}
+
+.text-jaune{
+    color:#fdcd33
+}
