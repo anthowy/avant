@@ -10,13 +10,7 @@
     {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
 
-    {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
-{{ if .Site.IsServer }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-{{ else }}
-  {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
-{{ end }}
+    <link href='{{ "css/tailwind.css" | relURL }}' rel="stylesheet" />
 <link rel="stylesheet" href="../../css/custom.css" />
 
 
