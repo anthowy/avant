@@ -1,4 +1,30 @@
 ---
 label: home
 hide_body: true
-fields: []
+fields:
+- name: image-accueil-avant-conseils-liege
+  type: file
+  config:
+    maxSize: 64
+  label: Image d'accueil Avant conseils Liège
+  description: title="Avant conseils, L'agence digitale,liégeoise et écoresponsable
+    qui vous accompagne dans votre développement numérique"
+  default: "/uploads/accueil1.svg"
+- name: texte_accueil
+  type: textarea
+  default: "__**Réseaux sociaux, site internet, blog, vidéos...**__ Quand on lance
+    son propre business ou quand on veut redorer son image de marque, il n'est pas
+    toujours facile de définir les bons outils digitaux à utiliser\n\net si en plus,
+    on à souhait de trouver les solutions les plus écoresponsables possibles, la tâche\n\ndevient
+    vraiment ardue\n\n  \nAvant vous aides dans la mise en place de ces différents
+    outils ,grâce à des __**analyses de vos besoins et de ceux de votre audience,la
+    création de vos outils digitaux**__et par un __**accompagnement**__ avant/pendant/après
+    la mise en place de ces mêmes outils. </p>  \nTout au long de ces démarches, notre
+    maitre mot sera de vous fournir les outils les plus ecologique quicorresponderont
+    à vos besoins et votre budget."
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: texte accueil
