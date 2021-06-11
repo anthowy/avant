@@ -9,27 +9,12 @@
     {{ if not (in (string .Site.BaseURL) "localhost") }}
     {{ end }}
     {{ partial "matomo-tracking" . }}
-    <!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//avantconseils.be/manalytics/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '3']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
+   
 <link rel="stylesheet" href="../../css/custom.css" type="text/css" media="print">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" type="text/css" media="screen">
     <link href='{{ "css/tailwind.css" | relURL }}' rel="stylesheet" type="text/css" media="screen" />
 <link rel="stylesheet" href="../../css/custom.css" type="text/css" media="screen" />
 
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-<script src="https://kit.fontawesome.com/b90407cdc0.js" crossorigin="anonymous"></script>
+
 </head>
