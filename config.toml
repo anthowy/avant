@@ -3,7 +3,6 @@ name = "Avant Conseils"
 title = "Avant-conseils"
 description = "My site description"
 theme = ["avant", "matomo"]
-googleAnalytics = "UA-123-45"
 
 [params]
     author = "Anthony.E"
@@ -33,4 +32,11 @@ googleAnalytics = "UA-123-45"
 [[menu.footer]]
   name = "politique de confidentialité"
   url = "/politique"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+  enableRobotsTXT = true
 

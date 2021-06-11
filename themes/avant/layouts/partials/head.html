@@ -7,7 +7,6 @@
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
     {{ if not (in (string .Site.BaseURL) "localhost") }}
-    {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
     {{ partial "matomo-tracking" . }}
     <!-- Matomo -->
@@ -25,10 +24,10 @@
   })();
 </script>
 <!-- End Matomo Code -->
-
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href='{{ "css/tailwind.css" | relURL }}' rel="stylesheet" />
-<link rel="stylesheet" href="../../css/custom.css" />
+<link rel="stylesheet" href="../../css/custom.css" type="text/css" media="print">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='{{ "css/tailwind.css" | relURL }}' rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../css/custom.css" type="text/css" media="screen" />
 
 
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
