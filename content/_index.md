@@ -4,6 +4,9 @@ date: 2021-05-29T12:29:07+02:00
 draft: false
 image: /images/accueil1.svg
 Description: "page d'accueil"
+permalink: "/"
+aliases : "/"
+
 ---
 
 **Réseaux sociaux, site internet, blog, vidéos...** Quand on lance son propre business ou quand on veut redorer son image de marque, il n'est pas toujours facile de définir les bons outils digitaux à utiliser
