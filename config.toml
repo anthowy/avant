@@ -3,6 +3,7 @@ name = "Avant Conseils"
 title = "Avant-conseils"
 description = "My site description"
 theme = ["avant", "matomo"]
+baseURL = "https://avantconseils.be"
 
 [params]
     author = "Anthony.E"
