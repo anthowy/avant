@@ -1,7 +1,7 @@
 languageCode = "fr"
 name = "Avant Conseils"
 title = "Avant-conseils"
-description = "My site description"
+description =   "Avant conseils, L'agence digitale, liégeoise et écoresponsable qui vous accompagne dans votre développement numérique"
 theme = ["avant", "matomo"]
 baseURL = "https://avantconseils.be"
 
