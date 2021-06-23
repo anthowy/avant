@@ -11,5 +11,5 @@ Description: "page d'accueil"
 Vous souhaitez réaliser **votre site internet** ou **redéfinir vos outils numériques** existant **dans une démarche écoresponsable**  ? Nous sommes là pour vous !
 
 Avant est une **agence numérique** située à Liège qui est orientée vers des **solutions éco-pensées**.
-Avec un souci de sobriété numérique important, nous réalisons vos **sites internet, eshops, campagne d'emailing...**  
-Nous **auditons vos solutions déjà existantes** et nous vous accompagnons vers une **transformation numérique plus verte**.
+Avec un souci de sobriété numérique important, nous réalisons vos **sites internet, e-shops, campagne d'emailing...**  
+Nous faisons **l'audit de vos solutions déjà existantes** et nous vous accompagnons vers une **transformation numérique plus verte**.
