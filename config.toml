@@ -4,6 +4,7 @@ title = "Avant-conseils"
 description =   "Avant conseils, L'agence digitale, liégeoise et écoresponsable qui vous accompagne dans votre développement numérique"
 theme = ["avant", "matomo"]
 baseURL = "https://avantconseils.be"
+enableRobotsTXT = true
 
 [params]
     author = "Anthony.E"
