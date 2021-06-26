@@ -50,11 +50,20 @@ h3{
     background-color:#85d7ef
 }
 
-
+.bg-jaune-hover:hover{
+background-color:#fdcd33 ;
+}
 .text-jaune{
     color:#fdcd33
 }
+input.email{color:red;}
+
 input:focus, textarea:focus{
     border-color:#fdcd33
     ;
 }
+
+textarea,input{
+    border-color: #85d7ef;
+}
+
